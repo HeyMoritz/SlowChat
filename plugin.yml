@@ -1,0 +1,18 @@
+name: SlowChat
+main: fr.aquazus.slowchat.Main
+version: 1.1
+description: Slow the chat and prevent spam!
+author: Aquazus
+commands:
+   slowchat:
+      description: Enable or disable slowmode in chat
+      aliases: [sc, slow]
+      usage: /<command> <time in seconds / off>
+      permission: slowchat.use
+permissions:
+   slowchat.use:
+      description: Allow to use the slowchat command
+      default: op
+   slowchat.bypass:
+      description: Bypass the SlowMode
+      default: op

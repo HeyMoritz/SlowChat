@@ -1,0 +1,14 @@
+#Available languages: en (english), fr (french), de (german)
+language: en
+
+#Enable or disable update notifications (the plugin doesn't update itself, just notice you)
+updater: true
+
+#Enable or disable Metrics (collect data for anonymous statistics)
+metrics: true
+
+
+
+
+#Don't change this, it will reset your config!
+configversion: 2

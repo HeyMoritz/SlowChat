@@ -1,0 +1,42 @@
+package fr.aquazus.slowchat;
+
+public class Lang
+{
+    public static String NO_PERMISSION;
+    public static String SLOWMODE_ENABLED;
+    public static String SLOWMODE_DISABLED;
+    public static String CHAT_IS_IN_SLOWMODE;
+    public static String SERVER_IS_NOW_IN_SLOWMODE;
+    public static String SERVER_IS_NO_LONGER_IN_SLOWMODE;
+    public static String SLOWCHAT_COMMAND_USAGE;
+    
+    public static void english() {
+        NO_PERMISSION = "&cYou don't have permission.";
+        SLOWMODE_ENABLED = "&aSlowMode enabled! Time between two messages: %a seconds";
+        SLOWMODE_DISABLED = "&cSlowMode disabled!";
+        CHAT_IS_IN_SLOWMODE = "&cThe chat is in slowmode! Please wait %a seconds between each messages!";
+        SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Server chat is now in slowmode! Time between each messages: %a seconds";
+        SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Server chat is no longer in slowmode!";
+        SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Usage: /slowchat <time in seconds> OR /slowchat off";
+    }
+    
+    public static void french() {
+        NO_PERMISSION = "&cVous n'avez pas la permission de faire ceci.";
+        SLOWMODE_ENABLED = "&aSlowMode activé! Temps entre deux messages: %a secondes";
+        SLOWMODE_DISABLED = "&cSlowMode désactivé!";
+        CHAT_IS_IN_SLOWMODE = "&cLe chat est en SlowMode! Vous devez attendre %a secondes entre chaque message!";
+        SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Le chat est désormais en SlowMode, temps entre deux messages: %a secondes";
+        SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Le chat n'est désormais plus en SlowMode!";
+        SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Utilisation: /slowchat <temps en secondes> OU /slowchat off";
+    }
+    
+    public static void german() {
+        NO_PERMISSION = "&cDu bist nicht berechtigt, dies zu tun.";
+        SLOWMODE_ENABLED = "&aSlowMode aktiviert! Zeit swischen Nachrichten: %a sekunden";
+        SLOWMODE_DISABLED = "&cSlowMode deaktiviert!";
+        CHAT_IS_IN_SLOWMODE = "&cDie Gespräch ist SlowMode! Sie müssen %a sekunden zwischen jeder Nachricht warten!";
+        SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Die Gespräch ist jetzt SlowMode, Zeit zwischen zwei Nachrichten: %a sekunden";
+        SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Die Gespräch ist nicht mehr in SlowMode!";
+        SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Verwendung: /slowchat <zeit in sekunden> ODER /slowchat off";
+    }
+}
