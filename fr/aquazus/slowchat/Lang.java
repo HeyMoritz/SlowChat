@@ -39,18 +39,18 @@ public class Lang
 	public static void french() {
 		NO_PERMISSION = "&cVous n'avez pas la permission de faire ceci.";
 		
-		SLOWMODE_ENABLED = "&aSlowMode activÈ! Temps entre deux messages: %a secondes";
-		SLOWMODE_DISABLED = "&cSlowMode dÈsactivÈ!";
+		SLOWMODE_ENABLED = "&aSlowMode activ√©! Temps entre deux messages: %a secondes";
+		SLOWMODE_DISABLED = "&cSlowMode d√©sactiv√©!";
 		CHAT_IS_IN_SLOWMODE = "&cLe chat est en SlowMode! Vous devez attendre %a secondes entre chaque message!";
-		SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Le chat est dÈsormais en SlowMode, temps entre deux messages: %a secondes";
-		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Le chat n'est dÈsormais plus en SlowMode!";
+		SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Le chat est d√©sormais en SlowMode, temps entre deux messages: %a secondes";
+		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Le chat n'est d√©sormais plus en SlowMode!";
 		SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Utilisation: /slowchat <temps en secondes> OU /slowchat off";
 		
-		PAUSEMODE_ENABLED = "&aPauseMode activÈ!";
-		PAUSEMODE_DISABLED = "&cPauseMode dÈsactivÈ!";
-		CHAT_IS_IN_PAUSEMODE = "&cLe chat est en PauseMode! Seul les joueurs autorisÈs peuvent Ècrire!";
-		SERVER_IS_NOW_IN_PAUSEMODE = "&a[SlowChat] Le chat est dÈsormais en PauseMode, seul les joueurs autorisÈs peuvent Ècrire!";
-		SERVER_IS_NO_LONGER_IN_PAUSEMODE = "&a[SlowChat] Le chat n'est dÈsormais plus en PauseMode!";
+		PAUSEMODE_ENABLED = "&aPauseMode activ√©!";
+		PAUSEMODE_DISABLED = "&cPauseMode d√©sactiv√©!";
+		CHAT_IS_IN_PAUSEMODE = "&cLe chat est en PauseMode! Seul les joueurs autoris√©s peuvent √©crire!";
+		SERVER_IS_NOW_IN_PAUSEMODE = "&a[SlowChat] Le chat est d√©sormais en PauseMode, seul les joueurs autoris√©s peuvent √©crire!";
+		SERVER_IS_NO_LONGER_IN_PAUSEMODE = "&a[SlowChat] Le chat n'est d√©sormais plus en PauseMode!";
 		PAUSECHAT_COMMAND_USAGE = "&a[SlowChat] Utilisation: /pausechat on/off";
 
 	}
@@ -58,18 +58,18 @@ public class Lang
 	public static void german() {
 		NO_PERMISSION = "&cDu bist nicht berechtigt, dies zu tun.";
 		
-		SLOWMODE_ENABLED = "&aSlowMode aktiviert! Zeit swischen Nachrichten: %a sekunden";
-		SLOWMODE_DISABLED = "&cSlowMode deaktiviert!";
-		CHAT_IS_IN_SLOWMODE = "&cDie Gespr‰ch ist SlowMode! Sie m¸ssen %a sekunden zwischen jeder Nachricht warten!";
-		SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Die Gespr‰ch ist jetzt SlowMode, Zeit zwischen zwei Nachrichten: %a sekunden";
-		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Die Gespr‰ch ist nicht mehr in SlowMode!";
+		SLOWMODE_ENABLED = "&0[&f&lHeyServer&0] &f>>&7 SlowMode aktiviert! Zeit swischen Nachrichten: %a sekunden";
+		SLOWMODE_DISABLED = "&0[&f&lHeyServer&0] &f>>&7 SlowMode deaktiviert!";
+		CHAT_IS_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Die Gespr√§ch ist SlowMode! Sie m√ºssen %a sekunden zwischen jeder Nachricht warten!";
+		SERVER_IS_NOW_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Die Gespr√§ch ist jetzt SlowMode, Zeit zwischen zwei Nachrichten: %a sekunden";
+		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Die Gespr√§ch ist nicht mehr in SlowMode!";
 		SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Verwendung: /slowchat <zeit in sekunden> ODER /slowchat off";
 		
 		SLOWMODE_ENABLED = "&aPauseMode aktiviert!";
 		SLOWMODE_DISABLED = "&cPauseMode deaktiviert!";
-		CHAT_IS_IN_SLOWMODE = "&cDie Gespr‰ch ist PauseMode! Nur berechtigte Spieler d¸rfen sprechen";
-		SERVER_IS_NOW_IN_SLOWMODE = "&a[SlowChat] Die Gespr‰ch ist jetzt PauseMode, Nur berechtigte Spieler d¸rfen sprechen";
-		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&a[SlowChat] Die Gespr‰ch ist nicht mehr in PauseMode!";
+		CHAT_IS_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Du musst kurz warten bis du wieder reden kannst!";
+		SERVER_IS_NOW_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Der Chat ist nun im Slowmode";
+		SERVER_IS_NO_LONGER_IN_SLOWMODE = "&0[&f&lHeyServer&0] &f>>&7 Der Chat ist nicht mehr im Slowmode";
 		SLOWCHAT_COMMAND_USAGE = "&a[SlowChat] Verwendung: /pausechat <on/off>";
 	}
 }
